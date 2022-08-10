@@ -23,7 +23,7 @@ resource "azurerm_subnet" "subnet1a" {
   name                 = var.azurerm_subnet1a
   resource_group_name  = var.azurerm_resource_group
   virtual_network_name = var.azurerm_virtual_network
-  address_prefixes     = var.address_prefixes6
+  address_prefixes     = var.address_prefixes1a
   depends_on = [
     azurerm_virtual_network.vnet1a
   ]
